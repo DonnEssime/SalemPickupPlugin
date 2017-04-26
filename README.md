@@ -2,6 +2,7 @@ Setting up the project
 1.  clone the sample repo
 2. load the project in netbeans (suggested) or your favorite IDE. I will assume Netbeans in subsequent steps, but note where this made a difference.
    [Netbeans-specific] Resolve an issue: the plug-in needs to point at lsalem.jar in netbeans settings for the auto-suggest to work.
+   [Eclipse-specific] Resolve an issue: the project needs a file reference to lsalem.jar. You can change this manually by editing project.properties and fixing the file.reference.lsalem.jar location to wherever it is for you.
 
 Making the application aware of your plug-in
 3. Refactor the SamplePlugin to whatever you want your plug-in to be called.
